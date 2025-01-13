@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  padding: 1rem;
+  background: #004c8c;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.item {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  gap: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.item:hover {
+    border-bottom: 2px solid white;
+}
